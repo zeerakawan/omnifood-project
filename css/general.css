@@ -145,12 +145,12 @@ body {
 }
 
 .btn--full:hover,
-.btn--full:hover {
+.btn--full:active {
   background-color: #cf711f;
 }
 
 .btn--outline:hover,
-.btn--outline:hover {
+.btn--outline:active {
   background-color: #fdf2e9;
   /* border: 4px solid #fff; */
 
