@@ -23,7 +23,7 @@
 --- COLORS
   PRIMARY: #e67e22
   TINTS: #fdf2e9 #fae5d3 #eb984e
-  SHADES: #cf711f
+  SHADES: #cf711f #45260a
   ACCENTS: 
   GREYS: #555 #333
 
@@ -41,6 +41,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 html {

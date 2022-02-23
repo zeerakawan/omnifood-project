@@ -66,6 +66,7 @@
   letter-spacing: 0.8px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -75,8 +76,25 @@
   padding: 1.6rem 3.2rem;
   border-radius: 0.9rem;
 
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
   /* TRANSITION FOR HOVER ON BUTTONS */
   transition: all 0.3s;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  padding: 1.2rem;
+
+  align-self: end;
+}
+
+.btn--form:hover {
+  background-color: #fdf2e9;
+  color: #45260a;
 }
 
 .btn--full:link,
