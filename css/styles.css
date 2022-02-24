@@ -51,6 +51,7 @@
 html {
   /* Fixing the default font size to 10px for all user browsers */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,4 +59,5 @@ body {
   font-weight: 400;
   line-height: 1;
   color: #555;
+  overflow-x: hidden;
 }
