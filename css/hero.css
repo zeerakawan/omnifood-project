@@ -3,6 +3,11 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+/* WHEN STICKY NAVIGATION ACTIVATES */
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
