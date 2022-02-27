@@ -1,4 +1,15 @@
-console.log("hello");
+// TO UPDATE THE CURRENT YEAR IN FOOTER SECTION
+const yearCopyright = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearCopyright.textContent = currentYear;
+
+// Activating mobile nav
+const mobNavElement = document.querySelector(".btn-mobile-nav");
+const headerElement = document.querySelector(".header");
+
+mobNavElement.addEventListener("click", function () {
+  headerElement.classList.toggle("nav-open");
+});
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
