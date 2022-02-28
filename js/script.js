@@ -1,3 +1,4 @@
+///////////////////////////////////////////////////////////
 // TO UPDATE THE CURRENT YEAR IN FOOTER SECTION
 const yearCopyright = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
@@ -11,6 +12,7 @@ mobNavElement.addEventListener("click", function () {
   headerElement.classList.toggle("nav-open");
 });
 
+///////////////////////////////////////////////////////////
 // SMOOTH SCROLLING
 const allLinks = document.querySelectorAll("a:link");
 
@@ -40,13 +42,13 @@ allLinks.forEach(function (link) {
   });
 });
 
+///////////////////////////////////////////////////////////
 // STICKY NAVIGATION
 const sectionHeroElement = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
   function (entries) {
     const ents = entries[0];
-    console.log(ents);
 
     if (!ents.isIntersecting) {
       document.body.classList.add("sticky");
